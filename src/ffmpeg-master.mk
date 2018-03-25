@@ -3,8 +3,8 @@
 PKG             := ffmpeg-master
 $(PKG)_WEBSITE  := https://ffmpeg.org/
 $(PKG)_IGNORE   :=
-$(PKG)_VERSION  := 9c24911
-$(PKG)_CHECKSUM := ab35561b3458d14332925b433eb40509f3f53a3839784407d474a4d321e0d921
+$(PKG)_VERSION  := 5b31dd1
+$(PKG)_CHECKSUM := e2a4252746834aa21a6b6bbc53e80a210c086aab569a34a5687f78082875681a
 $(PKG)_SUBDIR   := FFmpeg-$(PKG)-$($(PKG)_VERSION)
 $(PKG)_FILE     := $(PKG)-$($(PKG)_VERSION).tar.gz
 $(PKG)_URL      := https://github.com/artynet/FFmpeg/archive/$($(PKG)_FILE)
